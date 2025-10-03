@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ECG Sample</string>
+    <string name="title_activity_ecg">ECGActivity</string>
+    <string name="instructions_text">This app demonstrates the use of ECG API on Movesense sensor. First scan for BLE devices and then connect to it by clicking it on the list. After connection in established, ECG view will open.</string>
+</resources>
