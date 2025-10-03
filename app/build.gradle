@@ -1,6 +1,5 @@
 plugins {
     alias(libs.plugins.android.application)
-    id 'com.chaquo.python'
 }
 
 android {
@@ -13,18 +12,6 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0"
-
-        python {
-            pip {
-                install "PyWavelets"
-                install "scipy"
-            }
-        }
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        ndk {
-            abiFilters 'armeabi-v7a', 'arm64-v8a'
-        }
     }
 
     buildTypes {
@@ -48,9 +35,6 @@ dependencies {
     implementation libs.material
     implementation libs.activity
     implementation libs.constraintlayout
-    implementation libs.tensorflow.lite.support
-    implementation libs.tensorflow.lite.metadata
-    implementation libs.tensorflow.lite.gpu
     implementation files('../mdslib-3.27.0-release.aar')
     implementation files('../JWave.jar')
 

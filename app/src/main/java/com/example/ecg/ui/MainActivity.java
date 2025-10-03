@@ -37,11 +37,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import com.chaquo.python.PyObject;
-import com.chaquo.python.Python;
-import com.chaquo.python.android.AndroidPlatform;
 import com.example.ecg.R;
-import com.example.ecg.ai.MyTensor;
 import com.example.ecg.bluetooth.MyScanResult;
 import com.movesense.mds.Mds;
 import com.movesense.mds.MdsConnectionListener;
